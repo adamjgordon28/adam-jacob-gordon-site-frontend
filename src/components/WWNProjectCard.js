@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 class WWNProjectCard extends Component {
@@ -8,7 +9,7 @@ class WWNProjectCard extends Component {
     <img src="adam-gordon-burner-hat.png"/>
   </div>
   <div class="content">
-    <a class="header">Words With Nerds</a>
+  Words With Nerds
     <div class="meta">
       <span class="date">Created in April 2019</span>
     </div>

@@ -2,25 +2,25 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 
-class WWNProjectCard extends Component {
+class TellTaleProjectCard extends Component {
   render(){
-    return(<div class="ui card">
+    return(<div style={{display:"inline-block"}} class="ui card">
   <div class="image">
     <img src="adam-gordon-burner-hat.png"/>
   </div>
   <div class="content">
-  Words With Nerds
+  TellTale
     <div class="meta">
-      <span class="date">Created in April 2019</span>
+      <span class="date">Created in May 2019</span>
     </div>
     <div class="description">
-      This is an unusually fun word game!
+      Have a great idea for a story? This organizing and writing app is for you!
     </div>
   </div>
   <div class="extra content">
     <a>
       <i class="user icon"></i>
-      1000+ plays
+      Countless Users!
     </a>
   </div>
 </div>)
@@ -28,4 +28,4 @@ class WWNProjectCard extends Component {
 }
 
 
-export default WWNProjectCard
+export default TellTaleProjectCard

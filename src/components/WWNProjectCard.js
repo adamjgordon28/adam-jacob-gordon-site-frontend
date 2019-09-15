@@ -4,7 +4,7 @@ import '../App.css';
 
 class WWNProjectCard extends Component {
   render(){
-    return(<div class="ui card">
+    return(<div style={{display:"inline-block"}} class="ui card"> 
   <div class="image">
     <img src="adam-gordon-burner-hat.png"/>
   </div>

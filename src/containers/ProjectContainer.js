@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import WWNProjectCard from '../components/WWNProjectCard.js';
+import TellTaleProjectCard from '../components/TellTaleProjectCard.js';
 
 class ProjectContainer extends Component {
   render(){
@@ -8,6 +9,7 @@ class ProjectContainer extends Component {
     return(
       <div>
       <WWNProjectCard/>
+      <TellTaleProjectCard/>
       </div>
     )
   }

@@ -5,10 +5,11 @@ import PawsUpProjectCard from '../components/PawsUpProjectCard.js';
 import TellTaleProjectCard from '../components/TellTaleProjectCard.js';
 
 class ProjectContainer extends Component {
+  
   render(){
 
     return(
-      <div>
+      <div  >
       <WWNProjectCard/>
       <PawsUpProjectCard/>
       <TellTaleProjectCard/>
